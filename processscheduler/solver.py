@@ -171,7 +171,7 @@ class SchedulingSolver:
         for buffer in self.problem_context.buffers:
             #
             # create an array that stores the mapping between start times and
-            # quantities. For example, if a start T1 starts at 2 and consumes
+            # quantities. For example, if T1 starts at 2 and feeds
             # 8, and T3 ends at 6 and consumes 5 then the mapping array
             # will look like : A[2]=8 and A[6]=-5
             # SO far, no way to have the same start time at different inst
